@@ -60,12 +60,13 @@ font-size:20px;
 }
 
 .btn{
-margin-top:20px;
+margin-top:25px;
 padding:12px 25px;
 background:#ff4c60;
 color:white;
 text-decoration:none;
 border-radius:6px;
+display:inline-block;
 }
 
 /* SECTIONS */
@@ -137,8 +138,12 @@ flex-wrap:wrap;
 text-align:center;
 }
 
-.hero-text{
-max-width:500px;
+.hero-text h1{
+margin-bottom:10px;
+}
+
+.hero-text p{
+margin-bottom:20px;
 }
 
 .hero-image img{
@@ -183,7 +188,12 @@ flex-wrap:wrap;
 justify-content:center;
 }
 
+.btn{
+margin-top:20px;
 }
+
+}
+
 
 
 
