@@ -4,57 +4,78 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
+<title>Sam | Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<nav>
-<h2 class="logo">MyPortfolio</h2>
+<nav class="navbar">
+<h2 class="logo">Sam</h2>
 
-<ul>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#contact">Contact</a></li>
 </ul>
-
 </nav>
 </header>
 
-<section class="hero">
-<h1>Hello, I'm Samuel Paul Thoppil </h1>
-<p>Beginner Web Developer</p>
-<button>View My Work</button>
+<section id="home" class="hero">
+<h1>Hello, I'm Sam</h1>
+<p>Web Developer | Tech Learner</p>
+<a href="#projects" class="btn">View My Work</a>
 </section>
 
-<section id="about">
+<section id="about" class="about">
 <h2>About Me</h2>
-<p>I am learning web development and building modern websites.</p>
+<p>
+I am passionate about learning web development and building modern websites.
+Currently exploring HTML, CSS and JavaScript.
+</p>
 </section>
 
-<section id="skills">
+<section id="skills" class="skills">
 <h2>Skills</h2>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Python</li>
-<li>PHP</li>
-<li>React</li>
-</ul>
+
+<div class="skill-box">
+<p>HTML</p>
+<div class="progress"><div class="html"></div></div>
+
+<p>CSS</p>
+<div class="progress"><div class="css"></div></div>
+
+<p>JavaScript</p>
+<div class="progress"><div class="js"></div></div>
+</div>
+
 </section>
 
 <section id="projects">
 <h2>Projects</h2>
-<p>Coming soon...</p>
+
+<div class="project-container">
+
+<div class="project-card">
+<h3>Portfolio Website</h3>
+<p>My first portfolio project hosted on GitHub.</p>
+</div>
+
+<div class="project-card">
+<h3>Future Project</h3>
+<p>More projects coming soon.</p>
+</div>
+
+</div>
+
 </section>
 
 <section id="contact">
 <h2>Contact</h2>
-<p>Email: samuelthoppil2005@gmail.com</p>
+<p>Email: yourmail@email.com</p>
 </section>
 
 <footer>
